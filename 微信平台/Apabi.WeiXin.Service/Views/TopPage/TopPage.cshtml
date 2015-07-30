@@ -1,0 +1,34 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="~/Content/pageStyle/pageStyle.css"
+    <title></title>
+    <script type="text/javascript">
+        function SearchBtnClick()
+        {
+            var sw = document.getElementById("sw").value;
+            window.open("../SearchResult/SearchResult?sw=" + sw);
+        }
+        function imClick() {
+            var searchstate=document.getElementById("tsbtn").style.display;
+            if (searchstate == "none" || searchstate.trim()=='')
+                document.getElementById("tsbtn").style.display = "block";
+            else
+                document.getElementById("tsbtn").style.display = "none";
+        }
+    </script>
+</head>
+<body>
+        <div id="top">
+            <img id="timg" src="~/Images/search.png" onclick="imClick()" />
+        </div>
+        <div id="tsbtn">
+            <input id="sw" type="text" />
+            <input id="SearchBtn" onclick="SearchBtnClick()" type="button" value="检索" />
+        </div>
+</body>
+</html>

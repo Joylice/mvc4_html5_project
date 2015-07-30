@@ -1,0 +1,21 @@
+C:\Users\wangmeng03\Documents\Visual Studio 2012\Projects\WeiXinPinTai\DAL\bin\Debug\DAL.dll
+C:\Users\wangmeng03\Documents\Visual Studio 2012\Projects\WeiXinPinTai\DAL\bin\Debug\DAL.pdb
+C:\Users\wangmeng03\Documents\Visual Studio 2012\Projects\WeiXinPinTai\DAL\bin\Debug\Model.dll
+C:\Users\wangmeng03\Documents\Visual Studio 2012\Projects\WeiXinPinTai\DAL\bin\Debug\Model.pdb
+C:\Users\wangmeng03\Documents\Visual Studio 2012\Projects\WeiXinPinTai\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\wangmeng03\Documents\Visual Studio 2012\Projects\WeiXinPinTai\DAL\obj\Debug\DAL.dll
+C:\Users\wangmeng03\Documents\Visual Studio 2012\Projects\WeiXinPinTai\DAL\obj\Debug\DAL.pdb
+D:\定制项目\微信平台\DAL\bin\Debug\DAL.dll
+D:\定制项目\微信平台\DAL\bin\Debug\DAL.pdb
+D:\定制项目\微信平台\DAL\bin\Debug\Model.dll
+D:\定制项目\微信平台\DAL\bin\Debug\Model.pdb
+D:\定制项目\微信平台\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\定制项目\微信平台\DAL\obj\Debug\DAL.dll
+D:\定制项目\微信平台\DAL\obj\Debug\DAL.pdb
+D:\定制项目\微信平台1\微信平台\DAL\bin\Debug\DAL.dll
+D:\定制项目\微信平台1\微信平台\DAL\bin\Debug\DAL.pdb
+D:\定制项目\微信平台1\微信平台\DAL\bin\Debug\Model.dll
+D:\定制项目\微信平台1\微信平台\DAL\bin\Debug\Model.pdb
+D:\定制项目\微信平台1\微信平台\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\定制项目\微信平台1\微信平台\DAL\obj\Debug\DAL.dll
+D:\定制项目\微信平台1\微信平台\DAL\obj\Debug\DAL.pdb

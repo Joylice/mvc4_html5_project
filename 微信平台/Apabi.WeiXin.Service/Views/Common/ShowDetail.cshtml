@@ -1,0 +1,89 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+@model  WeiXinPinTai.Models.Common.News
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <script src="~/Scripts/jquery-1.7.1.min.js"></script>
+    <title>@Model.oneNew.Title</title>
+    <style type="text/css">
+.help{
+	font-size:18px;
+	font-family:"微软雅黑";
+	width:100%;
+	margin:0 auto;
+	text-align:left;
+	line-height:1.5;
+	}
+.help h1{
+	font-size:20px;
+	text-align:center;
+	font-weight:normal;
+	}
+.help h2{
+	font-size:14px;
+	font-weight:normal;
+	color:#666;
+	text-align:center;
+	}
+.help span{
+	color:#666;
+	}
+</style>
+    <script type="text/javascript">
+         
+          $(function () 
+              {
+                  if ($("#divContent2")[0].outerText) 
+                     {
+                          // ie
+                          $("#divContent1").html($("#divContent2")[0].outerText);
+                     }
+                else
+                  {
+                      // Firefox
+                     $("#divContent1").html($("#divContent2")[0].textContent);
+                  }
+                });
+              
+    </script>
+</head>
+<body>
+    @*<div style="width:20%">
+        
+            <span style="text-align: center">
+                  <h2>@Model.oneNew.Title</h2>
+            </span>
+           <span style="text-align: center">
+                 <h4>@string.Format("{0:yyyy/MM/dd}",Model.oneNew.PubDate)   @Model.oneNew.Author</h4>
+            </span>
+                <br />
+                @if (Model.oneNew.CoverUrl!=" ")
+                {
+                    <span><img width="100%" height="300px" src="@Url.Content(Model.oneNew.CoverUrl)" /></span>
+                }
+            <div id="divContent1">
+                <div id="divContent2">
+                    @Model.oneNew.Content     
+                </div>
+            </div>
+    </div>*@
+    <div class="help">
+  <h1>@Model.oneNew.Title</h1>
+      <h2>@string.Format("{0:yyyy/MM/dd}",Model.oneNew.PubDate)   @Model.oneNew.Author</h2><br />
+    　          @if (Model.oneNew.CoverUrl != " " && Model.oneNew.CoverUrl !="" && Model.oneNew.CoverUrl!=null)
+                {
+                    <span><img width="100%" height="300px" src="@Url.Content(Model.oneNew.CoverUrl)" /></span>
+                }
+            <div id="divContent1">
+                <div id="divContent2">
+                    @Model.oneNew.Content     
+                </div>
+            </div>　
+</div>
+</body>
+</html>

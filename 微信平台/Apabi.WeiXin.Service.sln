@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apabi.WeiXin.Service", "Apabi.WeiXin.Service\Apabi.WeiXin.Service.csproj", "{72124EEB-4C29-4C4A-899E-37CF3E06A659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{460597A1-F56B-4C35-9617-A130A114543B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{7B78AC76-06D4-4988-82A1-B84A6102C05E}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://ebookdev6:8080/tfs/dlibcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Apabi.WeiXin.Service\\Apabi.WeiXin.Service.csproj
+		SccProjectName1 = Apabi.WeiXin.Service
+		SccLocalPath1 = Apabi.WeiXin.Service
+		SccProjectUniqueName2 = DAL\\DAL.csproj
+		SccProjectName2 = DAL
+		SccLocalPath2 = DAL
+		SccProjectUniqueName3 = Model\\Model.csproj
+		SccProjectName3 = Model
+		SccLocalPath3 = Model
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72124EEB-4C29-4C4A-899E-37CF3E06A659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72124EEB-4C29-4C4A-899E-37CF3E06A659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72124EEB-4C29-4C4A-899E-37CF3E06A659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72124EEB-4C29-4C4A-899E-37CF3E06A659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{460597A1-F56B-4C35-9617-A130A114543B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{460597A1-F56B-4C35-9617-A130A114543B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{460597A1-F56B-4C35-9617-A130A114543B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{460597A1-F56B-4C35-9617-A130A114543B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B78AC76-06D4-4988-82A1-B84A6102C05E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B78AC76-06D4-4988-82A1-B84A6102C05E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B78AC76-06D4-4988-82A1-B84A6102C05E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B78AC76-06D4-4988-82A1-B84A6102C05E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

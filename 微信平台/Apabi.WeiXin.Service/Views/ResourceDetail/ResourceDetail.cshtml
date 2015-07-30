@@ -1,0 +1,44 @@
+﻿@{
+   
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="../../Content/pageStyle/pageStyle.css">
+    <title>ResourceDetail</title>
+     <script type="text/javascript">
+         function ReadBtnClick() {
+             alert("111");
+         }
+    </script>
+</head>
+<body>
+   <div class="fontdiv">
+        @{
+            var resource = ViewData["Resource"] as Apabi.WeiXin.Service.Models.Resource;
+            var xt = "";
+            var price ="";     
+            <div class="RsList">
+                <div id="DetailImg">
+                   <img style="width:100%" alt="" src="@resource.CoverUrl" />
+                </div>
+                <div style="padding-top: 10px;">
+                    <span>【作者】 @resource.Creator</span> <br />
+                    <span>【形态项】 @xt </span> <br />
+                    <span>【出版项】 @resource.Publisher </span><br />
+                    <span>【ISBN号】 @resource.ISBN </span><br />
+                    <span>【中图法分类号】 @resource.ZTFCategory </span><br />
+                    <span>【原书定价】 @price </span><br />
+                    <span>【主题词】@resource.Title </span>
+                 </div>
+                <div id="readbtn">
+                    <input id="OnlineRead" type="button" onclick="ReadBtnClick()" value="阅读" />
+                </div>
+             </div>
+         }
+    </div>
+</body>
+</html>

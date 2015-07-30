@@ -1,0 +1,59 @@
+﻿@{
+   
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DetailPage</title>
+</head>
+<body>
+        @Html.Partial("../TopPage/TopPage")
+    <div class="fontdiv">
+         @{           
+             foreach (var resource in (ViewData["Resources"] as List<Apabi.WeiXin.Service.Models.Resource>))
+             {
+                 string oldurl = resource.CoverUrl.Replace('&','*');
+                 //var url = "../ResourceDetail/ResourceDetail/?creator=" + resource.Creator + "&xt=&pb=" + resource.Publisher + "&isbn=" + resource.ISBN + "&ztfcode=" + resource.ZTFCategory + "&price=&keyword=" + resource.Title + "&im=" + oldurl;
+                 var url = "../ResourceDetail/ResourceDetail/?metaid=" + @resource.Identifier;
+                   <div class="RsList">
+                    <a target="_blank" href="@url" style="text-decoration:none";>
+                        <div class="Left">
+                            <img  width="100%" src="@resource.CoverUrl" />
+                        </div>
+                        <div class="Right">                        
+                            <span> @resource.Title </span> <br />
+                            <span> @resource.Creator </span> <br />
+                            <span> @resource.Publisher </span>
+                        </div>   
+                    </a> 
+                </div>
+             }
+             var prepage="";
+             var nextpage="";
+             int totalCount=  Convert.ToInt32(ViewData["TotalCount"]);
+             int page = Convert.ToInt32(Request.Params["page"]);
+             int pagesize = Convert.ToInt32( Request.Params["pagesize"]);
+             if (page == 1 || page == 0)    
+             {
+                 page = 1;
+                 prepage = "../ResourceList/ResourceList?sw=" + Request.Params["sw"] + "&sourcetype=" + Request.Params["sourcetype"] + "&page=" + page + "&pagesize=" + pagesize;
+             }
+             else
+             {
+                 prepage = "../ResourceList/ResourceList?sw=" + Request.Params["sw"] + "&sourcetype=" + Request.Params["sourcetype"] + "&page=" + (page - 1) + "&pagesize=" + pagesize;
+             }
+             if (pagesize == 0) { pagesize = 10; }
+             if ((page) > (totalCount / pagesize)){page = page - 1;}
+             nextpage = "../ResourceList/ResourceList?sw=" + Request.Params["sw"] + "&sourcetype=" + Request.Params["sourcetype"] + "&page=" + (page + 1) + "&pagesize=" + pagesize;
+             
+             <div style="margin-left:50%;">
+                 <a  href="@prepage">上一页|</a><a href="@nextpage">下一页</a>
+             </div>
+          }
+       
+    </div>
+</body>
+</html>

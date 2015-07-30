@@ -1,0 +1,84 @@
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\HTML5 MVC4 Responsive Web Application.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\HTML5 MVC4 Responsive Web Application.pdb
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\Antlr3.Runtime.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\Microsoft.Web.Infrastructure.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\Newtonsoft.Json.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\System.Net.Http.Formatting.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\System.Web.Helpers.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\System.Web.Http.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\System.Web.Http.WebHost.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\System.Web.Mvc.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\System.Web.Optimization.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\System.Web.Providers.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\System.Web.Razor.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\System.Web.WebPages.Deployment.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\System.Web.WebPages.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\System.Web.WebPages.Razor.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\WebGrease.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\Microsoft.Web.Infrastructure.xml
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\System.Net.Http.Formatting.xml
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\System.Web.Helpers.xml
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\System.Web.Http.xml
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\System.Web.Http.WebHost.xml
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\System.Web.Mvc.xml
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\System.Web.WebPages.xml
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\System.Web.WebPages.Deployment.xml
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\System.Web.WebPages.Razor.xml
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\zh-Hans\System.Web.Helpers.resources.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\zh-Hans\System.Web.Http.resources.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\obj\Debug\Apabi.WeiXin.Service.csprojResolveAssemblyReference.cache
+D:\定制项目\微信平台\Apabi.WeiXin.Service\obj\Debug\HTML5 MVC4 Responsive Web Application.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\obj\Debug\HTML5 MVC4 Responsive Web Application.pdb
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\DAL.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\Model.dll
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\DAL.pdb
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\Model.pdb
+D:\定制项目\微信平台\Apabi.WeiXin.Service\bin\MvcPager.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\HTML5 MVC4 Responsive Web Application.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\HTML5 MVC4 Responsive Web Application.pdb
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\Antlr3.Runtime.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\DAL.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\Microsoft.Web.Infrastructure.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\Model.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\MvcPager.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\Newtonsoft.Json.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\System.Net.Http.Formatting.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\System.Web.Helpers.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\System.Web.Http.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\System.Web.Http.WebHost.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\System.Web.Mvc.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\System.Web.Optimization.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\System.Web.Providers.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\System.Web.Razor.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\System.Web.WebPages.Deployment.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\System.Web.WebPages.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\System.Web.WebPages.Razor.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\WebGrease.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\DAL.pdb
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\Model.pdb
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\Microsoft.Web.Infrastructure.xml
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\System.Net.Http.Formatting.xml
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\System.Web.Helpers.xml
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\System.Web.Http.xml
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\System.Web.Http.WebHost.xml
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\System.Web.Mvc.xml
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\System.Web.WebPages.xml
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\System.Web.WebPages.Deployment.xml
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\System.Web.WebPages.Razor.xml
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\zh-Hans\System.Web.Helpers.resources.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\zh-Hans\System.Web.Http.resources.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\obj\Debug\Apabi.WeiXin.Service.csprojResolveAssemblyReference.cache
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\obj\Debug\HTML5 MVC4 Responsive Web Application.dll
+D:\定制项目\微信平台1\微信平台\Apabi.WeiXin.Service\obj\Debug\HTML5 MVC4 Responsive Web Application.pdb

@@ -1,0 +1,96 @@
+﻿@{
+   
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SearchResult</title>
+</head>
+<body>
+    @Html.Partial("../TopPage/TopPage")
+    <div class="fontdiv">
+         @{
+             var dlibList = ViewData["dlibList"] as List<Apabi.WeiXin.Service.Models.Resource>;
+             var refBookList = ViewData["refBookList"] as List<Apabi.WeiXin.Service.Models.Resource>;
+             var yearBookList = ViewData["yearBookList"] as List<Apabi.WeiXin.Service.Models.Resource>;
+             var newsPaperList = ViewData["newsPaperList"] as List<Apabi.WeiXin.Service.Models.Resource>;
+             var url = "../ResourceList/ResourceList?sw=" + Request.Params["sw"];
+             if (dlibList.Count!=0)
+             {
+                 <div class="RsList">
+                     <span>图书</span>
+                     <a class="mor" target="_blank" href="@url&sourcetype=dlib" >更多></a> 
+                 </div>
+                 <div class="SearchRs" >              
+                            <div class="Left">
+                                <img  width="100%" src="@dlibList[0].CoverUrl" />
+                            </div>
+                            <div class="Right" >                                                     
+                                <span> @dlibList[0].Title </span><br /><br />
+                                <span> @dlibList[0].Publisher </span> 
+                            </div>   
+
+                    </div>
+                 <br />
+            }
+             if (refBookList.Count != 0)
+             {
+                 <div class="RsList">
+                     <span>期刊</span>
+                     <a target="_blank" href="@url&sourcetype=refbook" class="mor">更多></a> 
+                 </div>
+                 <div class="SearchRs">              
+                            <div class="Left">
+                                <img  width="100%" src="@refBookList[0].CoverUrl" />
+                            </div>
+                            <div class="Right" style="">                                                     
+                                <span> @refBookList[0].Title </span><br /><br />
+                                <span> @refBookList[0].Publisher </span> 
+                            </div>   
+
+                    </div>
+                 <br />
+             }
+             if (yearBookList.Count != 0)
+             {
+                  <div class="RsList">
+                     <span>学位论文</span>
+                     <a target="_blank" href="@url&sourcetype=yearbook" class="mor" style="margin-left:55%">更多></a> 
+                 </div>
+                 <div class="SearchRs">              
+                            <div class="Left">
+                                <img  width="100%" src="@yearBookList[0].CoverUrl" />
+                            </div>
+                            <div class="Right" style="">                                                     
+                                <span> @yearBookList[0].Title </span><br /><br />
+                                <span> @yearBookList[0].Publisher </span> 
+                            </div>   
+
+                    </div>
+                 <br />
+             }
+             if (newsPaperList.Count != 0)
+             {
+                  <div class="RsList">
+                     <span>报纸</span>
+                     <a target="_blank" href="@url&sourcetype=newspaper" class="mor">更多></a> 
+                 </div>
+                 <div class="SearchRs">              
+                            <div class="Left">
+                                <img  width="100%" src="@newsPaperList[0].CoverUrl" />
+                            </div>
+                            <div class="Right" style="">                                                     
+                                <span> @newsPaperList[0].Title </span><br /><br />
+                                <span> @newsPaperList[0].Publisher </span> 
+                            </div>   
+
+                    </div>
+             }
+           
+          }
+    </div>
+</body>
+</html>

@@ -1,0 +1,126 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>新闻编辑</title>
+    <script src="~/Content/ckeditor/ckeditor.js"></script>
+    <!--上传文件-->
+    @*<script src="~/Content/ckfinder/ckfinder.js"></script>*@
+    <script src="~/Scripts/jquery-1.7.1.min.js"></script>
+    <link href="~/Content/css/UserAdmin.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/css/HomepageStyle.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<body>
+   @using (Html.BeginForm("EditNews", "Common", FormMethod.Post, new { enctype = "multipart/form-data" }))
+   {
+    @model WeiXinPinTai.Models.Common.News
+   <input type="hidden" name="hidValue" value="@Request.QueryString["type"]" />
+
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="chart_formne">
+               
+                  <tr>
+                    <td class="px_title">
+                       
+                        <h3>
+                            @Html.Label("编辑新闻")
+                        </h3>
+                    </td>
+                </tr>
+            </table> 
+        <div>
+                        @Html.HiddenFor(model=>model.oneNew.NewId)
+                <table width="100%" cellspacing="1" class="form">
+                    <tr class="list">
+                        <th width="20%" class="form">
+                                    
+                            新闻标题：</th>
+                        <td>
+                            @Html.TextBoxFor(model =>model.oneNew.Title)
+                            <span style="color:red">
+                            @Html.ValidationMessageFor(model =>model.oneNew.Title)
+                            </span>
+                        </td>
+                    </tr>
+                    <tr class="list">
+                        <th width="20%" class="form">
+                                    
+                            副标题：</th>
+                        <td>        
+                             @Html.TextBoxFor(m=>m.oneNew.SubHead)
+                            <span style="color:red">
+                             @Html.ValidationMessageFor(m=>m.oneNew.SubHead)
+                                </span>
+                        </td>
+                    </tr>
+                    <tr class="list">
+                        <th width="20%" class="form">
+                                    
+                            来源：</th>
+                        <td>  
+                         @Html.TextBoxFor(m =>m.oneNew.NewSource) 
+                            <span style="color:red">
+                         @Html.ValidationMessageFor(m=>m.oneNew.NewSource)
+                                </span>
+                        </td>
+                    </tr>
+                    <tr class="list">
+                        <th width="20%" class="form">
+                                    
+                            封面图片：
+                        </th>
+                        <td> 
+               <div class="editor-field">
+                  @Html.HiddenFor(m=>m.oneNew.CoverUrl)
+                <div><input type="file" name="Image" /></div>
+               </div>
+                
+                        </td>
+                    </tr>
+                    <tr class="list">
+                        <th width="20%" class="form">
+                                    
+                            发布者：</th>
+                        <td>
+                            @Html.TextBoxFor(m=>m.oneNew.Author)
+                            <span style="color:red">
+                            @Html.ValidationMessageFor(m=>m.oneNew.Author)
+                            &nbsp;&nbsp; 添加作者的昵称 例如：haohao
+                                </span>
+                        </td>
+                    </tr>
+                    <tr class="list">
+                        <th width="20%" class="form">
+                            新闻内容：
+                        <td>
+                             @Html.TextAreaFor(m=>m.oneNew.Content)
+                            <br />
+                            <span style="color:red">
+                            @Html.ValidationMessageFor(m=>m.oneNew.Content)
+                            @Html.Label("字符数限制：10~2000，其中样式会占用字数，点击“源代码”可查看全部文字。")
+                           </span>
+                                </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 100%; background-color: #f7f8f9; height: 24px; text-align: center;"
+                            align="center" colspan="2" valign="middle">
+                            <input type="submit" Class="inpBut_tow" value="确定" />
+                            
+                             @Html.ActionLink("返回", "GoBack", new {id=Request.Params["hidValue"],type=Request.Params["type"] })
+                         </td>
+                    </tr>
+                    
+                </table>
+        </div>
+   }
+      <script>
+          var editor = CKEDITOR.replace('oneNew_Content');
+          CKFinder.setupCKEditor(editor, '/Content/ckfinder/');
+    </script>
+</body>
+</html>

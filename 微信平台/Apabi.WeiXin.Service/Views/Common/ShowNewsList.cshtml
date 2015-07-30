@@ -1,0 +1,19 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>信息列表</title>
+</head>
+ @model   WeiXinPinTai.Models.Common.News 
+<body>
+    <div>
+     <img src="~/Images/u26_normal.png" />
+        @Html.Partial("~/Views/Shared/ShowList.cshtml",Model.dataList)
+    </div>
+</body>
+</html>

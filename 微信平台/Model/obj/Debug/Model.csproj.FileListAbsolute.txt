@@ -1,0 +1,14 @@
+C:\Users\wangmeng03\Documents\Visual Studio 2012\Projects\WeiXinPinTai\Model\bin\Debug\Model.dll
+C:\Users\wangmeng03\Documents\Visual Studio 2012\Projects\WeiXinPinTai\Model\bin\Debug\Model.pdb
+C:\Users\wangmeng03\Documents\Visual Studio 2012\Projects\WeiXinPinTai\Model\obj\Debug\Model.dll
+C:\Users\wangmeng03\Documents\Visual Studio 2012\Projects\WeiXinPinTai\Model\obj\Debug\Model.pdb
+D:\定制项目\微信平台\Model\bin\Debug\Model.dll
+D:\定制项目\微信平台\Model\bin\Debug\Model.pdb
+D:\定制项目\微信平台\Model\obj\Debug\Model.dll
+D:\定制项目\微信平台\Model\obj\Debug\Model.pdb
+D:\定制项目\微信平台\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\定制项目\微信平台1\微信平台\Model\bin\Debug\Model.dll
+D:\定制项目\微信平台1\微信平台\Model\bin\Debug\Model.pdb
+D:\定制项目\微信平台1\微信平台\Model\obj\Debug\Model.dll
+D:\定制项目\微信平台1\微信平台\Model\obj\Debug\Model.pdb
+D:\定制项目\微信平台1\微信平台\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

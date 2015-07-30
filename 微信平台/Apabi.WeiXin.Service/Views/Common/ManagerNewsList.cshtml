@@ -1,0 +1,66 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+@using Webdiyer.WebControls.Mvc;
+@model WeiXinPinTai.Models.Common.News
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>新闻列表管理</title>
+</head>
+<body>
+    <div style="text-align:center">
+  @using (Html.BeginForm("ManagerNewsList", "Common", new RouteValueDictionary { { "id", "" } }, FormMethod.Get))
+ {
+  @Html.Label("查询条件(标题)：") <input name="title" value="@Request.QueryString["title"]" /><input type="submit" value="查询" />
+ }
+ <a href="/Common/EditNews/?type=@Request.QueryString["Type"]">信息添加</a>
+ @using (Html.BeginForm("DoDelete", "Common"))
+ {
+<table border="0" cellpadding="3" cellspacing="1" width="45%" align="center" style="background-color: #b9d8f3">
+    <tr style="text-align: center; COLOR: #0076C8; BACKGROUND-COLOR: #F4FAFF; font-weight: bold">
+        
+        <th>编号</th>
+         <th>标题</th>
+         <th>来源</th> 
+         <th>作者</th>
+         <th>修改</th>
+         <th><input type="submit" value="删除选中项(D)" accesskey="D" onclick="getCheckedKeys()"/></th>
+    </tr>
+    @foreach (var info in Model.newList)
+     {
+        <tr  bgcolor='#F4FAFF'>
+            <td>@Html.DisplayFor(model => info.NewId)</td>
+             <td>@Html.DisplayFor(model => info.Title)</td>
+             <td>@Html.DisplayFor(model => info.NewSource)</td>
+             <td>@Html.DisplayFor(model => info.Author)</td>
+             <td><a href="/Common/EditNews/?id=@info.NewId&type=@Request.QueryString["Type"]">修改</a></td>
+             <td><input type="checkbox" name="val" value="@info.NewId"/></td>
+         </tr>
+    } 
+ </table>
+ <input type="hidden" name="hidValue" value="@Model.newList.CurrentPageIndex" />
+ @Html.Pager(Model.newList, new PagerOptions
+         {
+             PageIndexParameterName = "id",   
+             ShowPageIndexBox = true,     
+             FirstPageText = "首页",
+             PrevPageText = "上一页",
+             NextPageText = "下一页",
+             LastPageText = "末页",
+             PageIndexBoxType = PageIndexBoxType.TextBox,
+             PageIndexBoxWrapperFormatString = "请输入页数{0}",
+             GoButtonText = "转到",
+         })
+ @*//@Html.Raw("共：") @Model.newList.TotalItemCount @Html.Raw("条，")
+ //@Model.newList.CurrentPageIndex @Html.Raw("/") @Model.newList.TotalPageCount @Html.Raw("页")  
+ *@
+
+<script src="~/Scripts/jquery-1.7.1.min.js"></script>
+<script src="@Url.Content("~/Scripts/MvcPager.js")" type="text/javascript"></script>
+ }   
+       </div>
+</body>
+</html>
